@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -39,6 +40,8 @@
                             </div>
                         </div>
 
+                        
+
                         <div class="row mb-3">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
@@ -50,7 +53,7 @@
                                 </div>
                             </div>
                         </div>
-                       
+
 
                         <div class="row mb-0">
                             <div class="col-md-8 offset-md-4">

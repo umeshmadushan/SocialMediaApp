@@ -30,4 +30,12 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'secret' => env('NOCAPTCHA_SECRET'),
+    'sitekey' => env('NOCAPTCHA_SITEKEY'),
+    'options' => [
+        'timeout' => 30,
+    ],
+
+
+
 ];
